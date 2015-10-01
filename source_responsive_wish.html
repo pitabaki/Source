@@ -50,6 +50,9 @@
 			padding: 0 20px;
 			display:inline-block;
 		}
+		.head_nav{
+			display: table-cell;
+		}
 
 		/************ End Header Img and Internal Nav Bar ************/
 
@@ -204,10 +207,9 @@
 				display: table;
 			}
 			.nav_tables td{
-				width: 100%;
+				width: 200px;
 				padding: 5px 0;
 				text-align:center;
-				display:block;
 			}
 			.nav_pad{
 				height: 10px;
@@ -233,6 +235,9 @@
 			.internal_nav td span{
 				font-size: 14px;
 
+			}
+			.head_nav{
+				display: inline;
 			}
 
 			/************ End Header Img and Internal Nav Bar ************/
@@ -359,7 +364,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td align="left" style="/*background-color:green;*/">
+						<td align="left" style="/*background-color:green;*/" class="head_nav">
 							<table cellpadding="0" cellspacing="0" border="0" width="300" class="nav_tables">
 								<tr>
 									<td colspan="1" style="/*background-color:green;*/" class="nav_left">
@@ -368,7 +373,7 @@
 								</tr>
 							</table>
 						</td>
-						<td align="right" valign="bottom">
+						<td align="right" valign="bottom" class="head_nav">
 							<table cellpadding="0" cellspacing="0" border="0" width="300" class="nav_tables ext">
 								<tr>
 									<td colspan="1" style="vertical-align:bottom;/*background-color:red;*/" class="nav_right">
